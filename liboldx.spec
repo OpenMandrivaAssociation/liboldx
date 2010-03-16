@@ -2,7 +2,7 @@
 Name: liboldx
 Summary:  The oldX Library
 Version: 1.0.1
-Release: %mkrel 6
+Release: %mkrel 7
 Group: Development/X11
 License: MIT
 URL: http://xorg.freedesktop.org
