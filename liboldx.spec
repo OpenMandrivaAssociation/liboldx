@@ -2,12 +2,11 @@
 Name: liboldx
 Summary:  The oldX Library
 Version: 1.0.1
-Release: %mkrel 9
+Release: 10
 Group: Development/X11
 License: MIT
 URL: http://xorg.freedesktop.org
 Source0: http://xorg.freedesktop.org/releases/individual/lib/liboldX-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: pkgconfig(x11) >= 1.0.0
 BuildRequires: x11-proto-devel >= 1.0.0
