@@ -47,6 +47,7 @@ fi
 
 %build
 %configure2_5x \
+	--disable-static \
 	--x-includes=%{_includedir}\
 	--x-libraries=%{_libdir}
 
